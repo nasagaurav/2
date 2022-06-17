@@ -1,0 +1,185 @@
+body
+{
+	font-family: arial;
+}
+
+header
+{
+	background: black;
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+header a
+{
+	color: white;
+	padding: 10px;
+	text-decoration: none;	
+}
+
+
+.slider
+{
+	position: relative;
+	/*background: yellow;*/
+}
+
+.slider img
+{
+	width: 100%;
+}
+
+.slider .bottom
+{
+	position: absolute;
+	/*background: red;*/
+	color: white;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+.band
+{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.band h2
+{
+	letter-spacing: 8px;
+	font-weight: normal;
+}
+.band .member
+{
+	display: flex;
+	text-align: center;
+}
+.band .member .item
+{
+	margin: 10px;
+	padding: 10px;
+}
+.band .member .item img
+{
+	width: 100%;
+}
+
+
+
+.tour
+{
+	padding: 5% 20%;
+	background: black;
+	color: white;
+}
+.tour .ticket
+{
+	background: white;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tour .location
+{
+	display: flex;
+}
+.tour .location .item
+{
+	margin: 1%;
+	background: white;
+	color: black;	
+}
+.tour .location .item img
+{
+	width: 100%;
+}
+.tour .location .item .pad
+{
+	padding: 10px;
+}	
+.tour .location .item .pad button
+{
+	border: 0;
+	background: black;
+	color: white;
+	padding: 10px;
+}
+
+
+
+
+
+.contact
+{
+	padding: 5% 20%;
+	/*padding:  top-bottom[5%] left-right[20%] ->shorthand property*/
+}
+.contact .flex
+{
+	margin-top: 5%;
+	display: flex;
+}
+.contact .flex .left
+{
+	width: 40%;
+	/*background: purple;*/
+}
+.contact .flex .left .line
+{
+	display: flex;
+}
+.contact .flex .left .line .l
+{
+	width: 20px;
+	/*background: red;*/
+}
+.contact .flex .left .line .r
+{	
+	/*background: yellow;*/
+}
+.contact .flex .right
+{
+	width: 60%;
+	/*background: lime;*/
+}
+.contact .flex .right input
+{
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid black;
+	width: 49.5%;
+}
+.contact .flex .right .lg
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.contact .flex .right button
+{
+	background: black;
+	color: white;
+	padding: 10px 20px;
+	border: 0;
+}
+
+
+.map img
+{
+	width: 100%;
+}
+
+
+
+footer
+{
+	color: grey;
+	text-align: center;
+	padding: 20px 0;
+}
